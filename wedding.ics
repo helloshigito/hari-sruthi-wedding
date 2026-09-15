@@ -1,16 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Hari Prasath and Sruthi//Wedding//EN
+PRODID:-//Hari Sruthi Wedding//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:hari-sruthi-wedding-20261030@example.local
-DTSTAMP:20260915T074800Z
-DTSTART;TZID=Asia/Kolkata:20261030T091500
-DTEND;TZID=Asia/Kolkata:20261030T102500
+UID:hari-sruthi-wedding-20261030@wedding
+DTSTAMP:20260915T000000Z
+DTSTART:20261030T034500Z
+DTEND:20261030T045500Z
 SUMMARY:Wedding of Hari Prasath & Sruthi
 LOCATION:Mangalam Weddings & Conventions\, Srirangam\, Trichy
-DESCRIPTION:Wedding of Hari Prasath and Sruthi. Muhurtham 9:15 AM - 10:25 AM. Location: https://maps.app.goo.gl/Vim9aHcY2jZdBhub7
-URL:https://maps.app.goo.gl/Vim9aHcY2jZdBhub7
+DESCRIPTION:Wedding of Hari Prasath & Sruthi. Location: https://maps.app.goo.gl/Vim9aHcY2jZdBhub7
 END:VEVENT
 END:VCALENDAR
