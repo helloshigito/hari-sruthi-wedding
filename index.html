@@ -25,10 +25,7 @@ body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);backg
 .wrap{max-width:520px;margin:auto;padding:22px 16px 46px}
 .card{background:rgba(255,250,240,.96);border:1px solid #d8bd84;border-radius:24px;box-shadow:0 14px 38px rgba(84,47,24,.13);overflow:hidden}
 .hero{text-align:center;padding:30px 20px 20px;border-bottom:1px solid #ead9b7}
-.motif{width:34px;height:48px;margin:0 auto 5px;position:relative;transform:rotate(-12deg)}
-.motif:before{content:"";position:absolute;width:18px;height:30px;border:2px solid var(--gold);border-radius:60% 40% 60% 40%;left:7px;top:0}
-.motif:after{content:"";position:absolute;width:2px;height:35px;background:var(--gold);left:16px;top:18px;transform:rotate(18deg);transform-origin:top}
-.motif i{position:absolute;width:7px;height:10px;border:2px solid var(--wine);border-radius:50%;left:12px;top:9px}
+.sparkle{font-size:22px;line-height:1;margin:0 auto 6px}
 .names{font-size:30px;color:var(--wine);margin:10px 0 4px}
 .date{letter-spacing:4px;font-size:14px}
 .video{padding:14px;background:#2c211c}
@@ -43,7 +40,7 @@ body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);backg
 .btn.primary{background:var(--wine);color:white}
 .btn.full{grid-column:1/-1}
 .footer{text-align:center;padding:24px 20px 30px;color:#775e4d;font-size:13px}
-.footer .motif{transform:rotate(168deg);opacity:.85}
+
 @media(max-width:360px){.names{font-size:26px}.actions{grid-template-columns:1fr}.btn.full{grid-column:auto}}
 </style>
 </head>
@@ -51,7 +48,7 @@ body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);backg
 <main class="wrap">
 <article class="card">
 <header class="hero">
-<div class="motif" aria-hidden="true"><i></i></div>
+<div class="sparkle" aria-hidden="true">✨</div>
 <div class="names">Hari Prasath &amp; Sruthi</div>
 <div class="date">30 · 10 · 2026</div>
 </header>
@@ -70,9 +67,8 @@ Your browser does not support video playback.
 <div class="muted">Muhurtham · 9:15 AM – 10:25 AM</div>
 <div class="actions">
 <a class="btn primary" href="https://maps.app.goo.gl/Vim9aHcY2jZdBhub7" target="_blank" rel="noopener">📍 View Location</a>
-<a class="btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding%20of%20Hari%20Prasath%20%26%20Sruthi&dates=20261030T034500Z/20261030T045500Z&details=Wedding%20of%20Hari%20Prasath%20%26%20Sruthi&location=Mangalam%20Weddings%20%26%20Conventions%2C%20Srirangam%2C%20Trichy" target="_blank" rel="noopener">📅 Google Calendar</a>
-<a class="btn" href="wedding.ics" download>Calendar File</a>
-<a class="btn primary" href="https://forms.gle/kdFnJkGDRvLRar1c6" target="_blank" rel="noopener">✓ RSVP</a>
+<a class="btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding%20of%20Hari%20Prasath%20%26%20Sruthi&dates=20261030T034500Z/20261030T045500Z&details=Wedding%20of%20Hari%20Prasath%20%26%20Sruthi&location=Mangalam%20Weddings%20%26%20Conventions%2C%20Srirangam%2C%20Trichy" target="_blank" rel="noopener">📅 Add to Calendar</a>
+<a class="btn primary full" href="https://forms.gle/kdFnJkGDRvLRar1c6" target="_blank" rel="noopener">✓ RSVP</a>
 </div>
 </section>
 
@@ -100,7 +96,7 @@ Your browser does not support video playback.
 </section>
 
 <footer class="footer">
-<div class="motif" aria-hidden="true"><i></i></div>
+<div class="sparkle" aria-hidden="true">✨</div>
 </footer>
 </article>
 </main>
